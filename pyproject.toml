@@ -1,12 +1,12 @@
 [project]
 name = "fr"
-version = "0.2.0"
+version = "0.3.0"
 description = "Default template for PDM package"
 authors = [
     {name = "rlaehgus97", email = "starkim625@gmail.com"},
 ]
 dependencies = [
-    "scikit-learn>=1.5.1",
+   
 ]
 requires-python = "==3.11.*"
 readme = "README.md"
@@ -15,6 +15,9 @@ license = {text = "MIT"}
 
 [tool.pdm]
 distribution = false
+
+[tool.pytest.ini_options]
+pythonpath = ["src/", "."]
 
 [project.scripts]
 pp = fr.cli:predict
