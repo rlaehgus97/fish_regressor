@@ -1,5 +1,5 @@
-from weightpd import lr_api
-from fishclass import knn_api
+from api.weightpd import lr_api
+from api.fishclass import knn_api
 
 # length를 받아 weight를 예측해서 return함
 def predict():
