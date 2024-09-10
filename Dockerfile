@@ -1,6 +1,6 @@
 #FROM python:3.11.9-slim-bullseye
-#FROM python:3.11
-FROM datamario24/python311scikitlearn-fastapi:1.0.0
+FROM python:3.11
+#FROM datamario24/python311scikitlearn-fastapi:1.0.0
 #FROM rlaehgus97/fishmlserv:0.9.1
 
 WORKDIR /codes
